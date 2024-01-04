@@ -1,0 +1,14 @@
+first solution:  ls -ahltc
+
+- a : all
+-h: human readable
+-l: long listing format
+-t: sort by modification time 
+-c: show c time
+
+
+third solution: 26 runs (magic numbers ) 
+commands: chmod +x *.sh, ./debug.sh
+
+Fourth solution:  find . -name '*.html' | xargs -d '\n' tar czf archive.gzip
+$ tar tvf archive.gzip
