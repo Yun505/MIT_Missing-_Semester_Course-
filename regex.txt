@@ -1,0 +1,17 @@
+REGEX:
+\. -> Match any character
+\d -> any digit
+abc -> will match anything with abc in that order 
+[abc] will only match a single a, b, or c letter and nothing else .
+[^abc] will match any single character except for the letters a, b, or c.
+a{3} will match the a character exactly three times.
+One way to express such a pattern would be to use what is known as the Kleene Star and the Kleene Plus, which essentially represents either 0 or more or 1 or more of the character that it follow
+ \? to match a plain question mark character in a string.
+. In addition, a whitespace special character \s will match any of the specific whitespaces above and is extremely useful when dealing with raw input text.
+One way to tighten our patterns is to define a pattern that describes both the start and the end of the line using the special ^ (hat) and $ (dollar sign) metacharacters.
+
+
+
+
+shttps://regexone.com/lesson/character_ranges?
+
